@@ -1,0 +1,124 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(../Font/Ubuntu-Regular.ttf);
+}
+
+
+* {
+    font-family: ubuntu;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.nav_bar {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.left img {
+    width: 200px;
+    height: 65px;
+}
+
+.btm1 {
+    background-color: #0d6db7;
+    border-radius: 5px;
+    padding: 10px;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+.btm2 {
+    background-color: #8dc63f;
+    border-radius: 5px;
+    padding: 10px;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.btm1:hover {
+    transform: scale(1.05);
+}
+
+.btm2:hover {
+    transform: scale(1.05);
+}
+
+.nav_bar>li:hover {
+    border-bottom: 2px solid #8dc63f;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+h1,
+h3 {
+    text-align: center;
+
+}
+
+p {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.24);
+    margin-left: 10px;
+}
+
+ol > li{
+    list-style: decimal;
+    
+}
+
+
+
+
+.bottom {
+    background-color: rgb(128, 128, 128);
+    height: 300px;
+    padding: 20px;
+}
+
+.footer-up {
+    display: flex;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.589);
+}
+
+.icon {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.logo {
+    width: 300px;
+    height: 80px;
+}
+
+.symble {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
+
+li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.footer-low {
+    text-align: center;
+}
